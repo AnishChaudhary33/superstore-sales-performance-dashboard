@@ -10,7 +10,7 @@ The goal is to generate business insights using Excel, PostgreSQL, and Power BI.
 - **Format:** CSV
 
 **Data:**
--[Dataset] (data/superstore.csv)
+- [Dataset csv](data/superstore.csv)
 ---
 ## Data Cleaning (Excel)
 - Removed blank rows
@@ -22,7 +22,6 @@ The goal is to generate business insights using Excel, PostgreSQL, and Power BI.
 **Cleaned File:**  
 - [Superstore_cleaned.xlsx](excel/superstore_cleaned.xlsx)
 ---
-
 ## Key SQL Analysis
 - Total sales calculation
 - Monthly sales trend analysis
@@ -34,7 +33,7 @@ The goal is to generate business insights using Excel, PostgreSQL, and Power BI.
 - Product and Category analysis
 
  **SQL Queries:**  
-[View SQL Analysis](sql/analysis.sql)
+[View SQL Analysis](sql/superstore_queries.sql)
 
 ---
 
@@ -42,7 +41,7 @@ The goal is to generate business insights using Excel, PostgreSQL, and Power BI.
 An interactive Power BI dashboard was created to visualize key business metrics and insights.
 
 **Power BI File:**  
-- [Download Power BI Dashboard](powerbi/superstore_sales_dashboard.pbix)
+- [Download Power BI Dashboard](powerbi/superstore_sales_performance_dashboard.pbix)
 
 ## Power BI Dashboard Features
 - KPI Cards (Total Sales, Total Orders, Total Customers, Average Order Value)
@@ -58,7 +57,7 @@ An interactive Power BI dashboard was created to visualize key business metrics 
 ---
 
 ##  Dashboard Screenshot
-(screenshots/dashboard_overview.png)
+![Dashboard Screenshot](screenshots/dashboard_overview.png)
 
 ---
 
@@ -84,7 +83,7 @@ The Superstore Sales Performance Dashboard provides a comprehensive view of busi
 
 ---
 ## Project Structure
-
+```
 Superstore_Sales_Analysis/
 │
 ├── data
@@ -103,3 +102,4 @@ Superstore_Sales_Analysis/
 │   └── dashboard_overview.png
 │
 └── README.md
+```
