@@ -5,9 +5,9 @@ This project analyzes sales data from the Superstore dataset to evaluate overall
 The goal is to generate business insights using Excel, PostgreSQL, and Power BI.
 
 ## Dataset
-- Source: Kaggle
-- Name: Superstore Sales Dataset
-- Format: CSV
+- **Source:** Kaggle
+- **Name:** Superstore Sales Dataset
+- **Format:** CSV
 
 **Data:**
 -[Dataset] (data/superstore.csv)
@@ -20,7 +20,7 @@ The goal is to generate business insights using Excel, PostgreSQL, and Power BI.
 - Ensured sales values were numeric
 
 **Cleaned File:**  
-- [Retail_Sales_Cleaned.xlsx](excel/superstore_cleaned.xlsx)
+- [Superstore_cleaned.xlsx](excel/superstore_cleaned.xlsx)
 ---
 
 ## Key SQL Analysis
@@ -38,11 +38,11 @@ The goal is to generate business insights using Excel, PostgreSQL, and Power BI.
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 An interactive Power BI dashboard was created to visualize key business metrics and insights.
 
 **Power BI File:**  
-- [Download Power BI Dashboard](powerbi/Retail_Sales_Dashboard.pbix)
+- [Download Power BI Dashboard](powerbi/superstore_sales_dashboard.pbix)
 
 ## Power BI Dashboard Features
 - KPI Cards (Total Sales, Total Orders, Total Customers, Average Order Value)
@@ -57,8 +57,8 @@ An interactive Power BI dashboard was created to visualize key business metrics 
 
 ---
 
-## 📸 Dashboard Screenshot
-![Dashboard](screenshots/dashboard_overview.png)
+##  Dashboard Screenshot
+(screenshots/dashboard_overview.png)
 
 ---
 
@@ -78,12 +78,12 @@ An interactive Power BI dashboard was created to visualize key business metrics 
 - PostgreSQL (Data analysis using SQL)
 - Power BI (Interactive dashboard)
 
-
+---
 ## Conclusion
 The Superstore Sales Performance Dashboard provides a comprehensive view of business performance across regions, customer segments, products, and time periods. This project highlights how structured data cleaning, SQL analysis, and effective data visualization can uncover actionable insights and support informed business decisions. It also demonstrates practical data analyst skills applicable to real-world business scenarios.
 
-
-## 📁 Project Structure
+---
+## Project Structure
 
 Superstore_Sales_Analysis/
 │
